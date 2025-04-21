@@ -1,0 +1,4 @@
+* GFEM (Guile FEM)
+The goal of this project is to create a custom FEM/FEA package similar to MSC Patran & Nastran.
+
+Ideally it will use guile as a scripting language, as well as containing a user-friendly gui like Patran.

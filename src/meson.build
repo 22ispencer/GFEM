@@ -1,1 +1,1 @@
-src_files = files(['main.cpp'])
+src_files = files(['main.cc'])

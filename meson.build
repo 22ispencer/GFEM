@@ -4,4 +4,4 @@ gtkmm_dep = dependency('gtkmm-4.0')
 
 subdir('src')
 
-executable('gfem', src_files, install: true, dependencies: [gtkmm_dep])
+executable('gfem', src_files, include_directories: src_include, install: true, dependencies: [gtkmm_dep])

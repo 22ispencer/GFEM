@@ -8,14 +8,14 @@ class HelloWorld : public Gtk::Window
 {
 
 public:
-  HelloWorld();
-  ~HelloWorld() override;
+  HelloWorld ();
+  ~HelloWorld () override;
 
 protected:
-  //Signal handlers:
-  void on_button_clicked();
+  // Signal handlers:
+  void on_button_clicked ();
 
-  //Member widgets:
+  // Member widgets:
   Gtk::Button m_button;
 };
 

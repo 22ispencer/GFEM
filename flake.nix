@@ -50,6 +50,7 @@
             echo "Entering development shell. compile_commands.json is in the current directory."
           '';
           packages = [
+            pkgs.cambalache
           ];
         };
       }
